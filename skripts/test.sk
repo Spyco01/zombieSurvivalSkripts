@@ -1,0 +1,9 @@
+on script load:
+	set {lol} to true
+
+command /example-console <text>:
+	trigger:
+		if arg is "true":
+			set {lol} to true
+		if arg is "false":
+			set {lol} to false
